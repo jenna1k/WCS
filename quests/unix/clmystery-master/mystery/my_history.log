@@ -1,0 +1,317 @@
+    1  pw
+    2  pwd
+    3  ls
+    4  cd ~
+    5  pwd
+    6  clear
+    7  cd /home
+    8  ls
+    9  cd jenna002k/
+   10  ls
+   11  cd ~
+   12  ls
+   13  man
+   14  man sudo
+   15  cd ~/Documents/
+   16  mkdir cottage
+   17  touch chair1
+   18  ls
+   19  mv chair1 cottage
+   20  mkdir armor
+   21  mkdir cabinet
+   22  mkdir shelves
+   23  cd cottage
+   24  mv armor ./cottage
+   25  ls
+   26  cd ..
+   27  ls
+   28  rm -rf armor
+   29  rm -rf cabinet
+   30  rm -rf shelves
+   31  clear
+   32  ls
+   33  cd cottage
+   34  mkdir armor
+   35  mkdir cabinet
+   36  mkdir shelves
+   37  cd cabinet/
+   38  cd ..
+   39  ls
+   40  cp chair1 chair2
+   41  ls
+   42  touch trinkets
+   43  cd cabinet/
+   44  mv ../trinkets .
+   45  ls
+   46  cd ../..
+   47  tree cottage
+   48  cp cabinet/trinkets shelves
+   49  cd cabinet
+   50  ls
+   51  cp cottage/cabinet/trinkets cottage/shelves/
+   52  tree cottage
+   53  git --version
+   54  sudo apt install git
+   55  git --version
+   56  git config --global user.name "jenna"
+   57  git config --global user.email jenna_kim1@hotmail.com
+   58  git config --list
+   59  git config --global color.ui true
+   60  vim
+   61  sudo apt install gitk
+   62  gitk
+   63  pwd
+   64  ls
+   65  mkdir Coding
+   66  cd Coding/
+   67  mkdir WCS
+   68  cd WCS
+   69  git init
+   70  git status
+   71  touch wild.html
+   72  ls
+   73  git add .
+   74  git commit -m "At the Wild Code School we code without shoes."
+   75  gitk
+   76  git branch wcs
+   77  ls
+   78  git status
+   79  git branch -av
+   80  git log
+   81  gitk
+   82  cd ..
+   83  ls
+   84  cd Downloads/
+   85  ls
+   86  mv clmystery-master ../Coding/WCS/
+   87  cd ../Coding/WCS/
+   88  ls
+   89  cd clmystery-master/
+   90  ls
+   91  cat cheatsheet.md
+   92  clear
+   93  ls
+   94  cat instructions 
+   95  ls
+   96  cd ..
+   97  ls
+   98  cd ~
+   99  ls
+  100  realpath ~
+  101  cd /etc
+  102  cd ~
+  103  realpath ~
+  104  pwd ~
+  105  cd home
+  106  ls
+  107  cd /home
+  108  ls
+  109  cd jenna002k/
+  110  ls
+  111  ls -a
+  112  ls -al
+  113  pwd ~
+  114  cd /
+  115  ls
+  116  ls -all
+  117  ll
+  118  tmp
+  119  cd tmp/
+  120  clear
+  121  ls -all
+  122  ls -l
+  123  ls -a
+  124  ls
+  125  clear
+  126  echo a
+  127  echo "I am moldy" > oldtacos.txt
+  128  ls -all
+  129  cat oldtacos.txt 
+  130  echo "I am hungry" > oldtacos.txt
+  131  cat oldtacos.txt 
+  132  mv oldtacos.txt newtacos.txt
+  133  ls
+  134  cat newtacos.txt
+  135  rm newtacos.txt 
+  136  mkdir food1
+  137  mkdir food2
+  138  ls
+  139  cd food1
+  140  ls
+  141  echo "" > pizza.txt
+  142  echo "margarita" > pizza.txt
+  143  cat pizza.txt 
+  144  touch lunch.txt
+  145  ls
+  146  cd ..
+  147  tree
+  148  ls
+  149  cd food1/
+  150  tree
+  151  sudo apt install tree
+  152  tree food1
+  153  cd ..
+  154  pwd
+  155  food tmp
+  156  clear
+  157  tree tmp
+  158  tree /tmp
+  159  vim
+  160  nano
+  161  emacs
+  162  sudo apt install vim
+  163  pwd ~
+  164  ls -all
+  165  cd ~
+  166  cd ..
+  167  ls
+  168  cd ..
+  169  s
+  170  ls
+  171  clear
+  172  ls
+  173  cd bin
+  174  ls
+  175  ls -all
+  176  cat pwd
+  177  vim cp
+  178  clear
+  179  cd ..
+  180  ls
+  181  cd dev
+  182  ls
+  183  realpath
+  184  cd ..
+  185  ls
+  186  cd ..
+  187  ls
+  188  cd ~
+  189  ls
+  190  man realpath
+  191  realpath -e
+  192  realpath --help
+  193  realpath ~
+  194  pwd ~
+  195  ls
+  196  cd Coding/WCS/
+  197  ls
+  198  cd clmystery-master/
+  199  clear
+  200  ls
+  201  cd mystery/
+  202  ls
+  203  head -n 20 people
+  204  grep "CLUE" crimescene
+  205  head vehicles 
+  206  head crimescene 
+  207  grep "Annabel" people
+  208  cd interviews/
+  209  ls
+  210  cd ..
+  211  head -n 173 streets/Mattapan_Street | tail -n 1
+  212  cat interview/interview-94
+  213  cat interview/interview-9437737
+  214  cd interviews/
+  215  cat interview-9437737
+  216  cd ..
+  217  grep "Honda" vehicles
+  218  grep "L337" vehicles
+  219  head vehicles
+  220  head n -30 vehicles
+  221  head --help
+  222  head -n --30 vehicles
+  223  head -n -30 vehicles
+  224  grep -A 5 "L337" vehicles
+  225  ls
+  226  cd memberships/
+  227  ls
+  228  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  229  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  230  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  231  cd ..
+  232  ls
+  233  clear
+  234  cat crimescene 
+  235  grep "CLUE" crimescene 
+  236  grep "Annabel" people
+  237  head -n 173 streets/Mattapan_Street | tail -n 1
+  238  head -n 173 streets/Hart_Place | tail -n 1
+  239  head -n 173 streets/Buckingham_Place | tail -n 1
+  240  head -n 40 streets/Hart_Place | tail -n 1
+  241  head -n 179 streets/Buckingham_Place | tail -n 1
+  242  cat interviews/interview-47246024
+  243  cat interviews/interview-699607
+  244  man grep
+  245  grep -A 5 "L337" vehicles 
+  246  grep -A 5 "L337" vehicles | grep -A 5 "Honda"
+  247  grep -A 5 "L337""Honda" vehicles
+  248  grep -A 5 "L337, Honda" vehicles
+  249  grep -A 5 "L337" vehicles
+  250  cd ..
+  251  history > my_history.log
+  252  ls
+  253  cd mystery/
+  254  clear
+  255  ls
+  256  cd Coding/WCS/clmystery-master/
+  257  ls
+  258  mv my_history.log ../
+  259  ls
+  260  clear
+  261  history > history1.log
+  262  ls
+  263  rm history1.log 
+  264  grep -A 5 "L337|Honda|Blue" vehicles
+  265  cd mystery/
+  266  grep -A 5 "L337|Honda|Blue" vehicles
+  267  man grep
+  268  egrep -A 5 "L337|Honda|Blue" vehicles
+  269  grep -E -A 5 "L337|Honda|Blue" vehicles
+  270  grep -A 5 'L337|Honda|Blue' vehicles
+  271  grep -E -A 5 'L337|Honda|Blue' vehicles
+  272  grep -E -A 5 'L337&Honda&Blue' vehicles
+  273  grep -A 5 "L337" vehicles | gerp "Honda" | grep "Blue"
+  274  grep -A 5 "L337" vehicles | grep "Honda" | grep "Blue"
+  275  grep -A 5 "L337" vehicles | grep "Honda"
+  276  grep -A 5 "L337" vehicles | grep -A 5 "Honda"
+  277  grep -A 5 "L337" vehicles | grep -A 5 "Honda" | grep "Blue"
+  278  grep -A 5 "L337" vehicles | grep -A 5 "Honda" | grep -A 5 "Blue"
+  279  grep -A 5 "L337" vehicles | grep -A 5 "Honda" | grep -A 5 "Blue" | wc -l
+  280  grep -A 5 "L337" vehicles | grep "Honda" | grep "Blue" | wc -l
+  281  ls
+  282  cd memberships/
+  283  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  284  cat Fitness_Galaxy AAA United_MileagePlus | grep "Aron Pilhofer"
+  285  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  286  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  287  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  288  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  289  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska" | wc -l
+  290  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher" | wc -l
+  291  cd ..
+  292  cat interviews/interview-47246024
+  293  cat interviews/interview-699607
+  294  grep -A 5 "L337" vehicles
+  295  grep "CLUE" crimescene 
+  296  cd memberships/
+  297  ls
+  298  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska" | wc -l
+  299  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Erika Owens" | wc -l
+  300  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers" | wc -l
+  301  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jacqui Maher" | wc -l
+  302  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher" | wc -l
+  303  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens" | wc -l
+  304  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska" | wc -l
+  305  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  306  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  307  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+  308  cd ..
+  309  grep "Annabel" people
+  310  head -n 40 streets/Hart_Place | tail -n 1
+  311  head -n 179 streets/Buckingham_Place | tail -n 1
+  312  cat interviews/interview-699607
+  313  cat interviews/interview-47246024
+  314  grep "Jacqui Maher" people
+  315  grep "Jeremy Bowers" people
+  316  echo "Jeremy Bowers"
+  317  history > my_history.log

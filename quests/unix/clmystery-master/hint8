@@ -1,0 +1,82 @@
+To see who was a member of several different groups, you can combine their membership lists into one and search against that.
+
+	cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+
+If you only want to see the number of matches, you can use grep's -c option (the c must be lowercase):
+
+	cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+
+Or you can pipe the result to 'wc -l':
+
+	cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+
+
+
+
+
+
+
+
+
+
+	jenna002k@jenna002k-wildcodeschool:~/Coding/WCS/clmystery-master/mystery$ grep -A 5 "L337" vehicles | grep -A 5 "Honda" | grep -A 5 "Blue"
+Color: Blue
+Owner: Erika Owens
+Height: 6'5"
+Weight: 220 lbs
+--
+--
+--
+Color: Blue
+Owner: Aron Pilhofer
+Height: 5'3"
+Weight: 198 lbs
+--
+--
+--
+Color: Blue
+Owner: Heather Billings
+Height: 5'2"
+Weight: 244 lbs
+--
+--
+--
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+--
+--
+--
+Color: Blue
+Owner: Jeremy Bowers *
+Height: 6'1"
+Weight: 204 lbs
+--
+--
+--
+Color: Blue
+Owner: Jacqui Maher *
+Height: 6'2"
+Weight: 130 lbs
+
+
+jenna002k@jenna002k-wildcodeschool:~/Coding/WCS/clmystery-master/mystery/memberships$ cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+1
+jenna002k@jenna002k-wildcodeschool:~/Coding/WCS/clmystery-master/mystery/memberships$ cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+1
+jenna002k@jenna002k-wildcodeschool:~/Coding/WCS/clmystery-master/mystery/memberships$ cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska" | wc -l1
+jenna002k@jenna002k-wildcodeschool:~/Coding/WCS/clmystery-master/mystery/memberships$ cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher" | wc -l 
+1
+
+
+jenna002k@jenna002k-wildcodeschool:~/Coding/WCS/clmystery-master/mystery/memberships$ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jacqui Maher" | wc -l
+1
+jenna002k@jenna002k-wildcodeschool:~/Coding/WCS/clmystery-master/mystery/memberships$ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher" | wc -l
+4
+jenna002k@jenna002k-wildcodeschool:~/Coding/WCS/clmystery-master/mystery/memberships$ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens" | wc -l 
+0
+jenna002k@jenna002k-wildcodeschool:~/Coding/WCS/clmystery-master/mystery/memberships$ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska" | wc -l
+2
+jenna002k@jenna002k-wildcodeschool:~/Coding/WCS/clmystery-master/mystery/memberships$ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+4

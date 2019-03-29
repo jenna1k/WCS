@@ -1,0 +1,24 @@
+body {
+    padding: 50px;
+  }
+  
+  .row > div {
+    height: 6rem;
+    margin: 1px;
+  }
+  
+  #b {
+    background-color: black;
+  }
+  
+  #w {
+    background-color: white;
+  }
+  
+  #o {
+    background-color: orange;
+  }
+  
+  #y {
+    background-color: yellow;
+  }
