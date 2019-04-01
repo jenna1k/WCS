@@ -2,23 +2,23 @@ body {
     padding: 50px;
   }
   
-  .row > div {
+.row > div {
     height: 6rem;
     margin: 1px;
   }
   
-  #b {
+.b {
     background-color: black;
   }
   
-  #w {
+.w {
     background-color: white;
   }
   
-  #o {
+.o {
     background-color: orange;
   }
   
-  #y {
+.y {
     background-color: yellow;
   }
